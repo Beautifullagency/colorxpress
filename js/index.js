@@ -47,7 +47,7 @@ $("#owl1").owlCarousel({
 
 
 grecaptcha.ready(function() {
-  grecaptcha.execute( '6LfQTrYaAAAAADQRiPh0EcANjnWETd3qXDh3YFIW', {action: 'homepage'}).then(function(token) {
+  grecaptcha.execute( '6LfFf8oaAAAAAJEnFqr1kZAeobLezLOYXUrGS5J9', {action: 'homepage'}).then(function(token) {
       // Add your logic to submit to your backend server here.
       $('#google-response').val(token)
   });
