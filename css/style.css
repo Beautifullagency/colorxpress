@@ -278,7 +278,13 @@ body {
   background: #FFD110 !important;
 }
 /*SECCION 4*/
-
+.descarga {
+  color: #323232;
+  font-weight: 700;
+  background: #F6E210;
+  padding: 7px 50px 7px 50px;
+  border: none;
+}
 .icon-star {
  width: 20px;
 }
